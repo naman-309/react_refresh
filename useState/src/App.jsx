@@ -2,6 +2,7 @@ import { useState } from 'react'
 import CounterContext from './components/CounterContext'
 import './App.css'
 import Counter from './components/Counter'
+import Showtext from './components/Showtext'
 
 function App() {
   const [name, setName] = useState('John')
@@ -25,6 +26,11 @@ function App() {
   const resetCount = () => {
     setCount(initialValue)
   }
+
+
+
+  // hiDe text function anD all 
+
   return (
     <>
       change  name  function
@@ -33,6 +39,7 @@ function App() {
       <CounterContext.Provider value={{ count, hanelCountIncrese, hanelCountDecrese, resetCount }}>
 
         <Counter></Counter>
+        <Showtext></Showtext>
 
       </CounterContext.Provider>
 
