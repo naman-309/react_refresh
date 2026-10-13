@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Counter from "./components/Counter";
+import About from "./components/About";
 
 function App() {
   useEffect(() => {
@@ -12,6 +13,7 @@ function App() {
     <>
       <h3>Welcome to useEffect</h3 >
       <Counter></Counter>
+      <About></About>
     </>
   );
 }
