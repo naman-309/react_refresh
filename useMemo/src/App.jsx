@@ -12,8 +12,6 @@ function App() {
 
   return (
     <div>
-
-
       <h2>Number: {number}</h2>
       <button onClick={() => setNumber(number + 1)}>
         Increase Number
